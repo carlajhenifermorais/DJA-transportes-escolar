@@ -1,7 +1,3 @@
-/* ==========================
-   Estilos gerais para as duas páginas
-=========================== */
-
 /* Navbar fixa */
 .navbar {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -10,11 +6,11 @@
   
   /* Navbar links */
   .navbar .nav-link {
-    color: rgb(14, 2, 80) !important;
+    color: rgb(16, 0, 99) !important;
     font-weight: 500;
   }
   .navbar .nav-link:hover {
-    color: #ffd500 !important; /* amarelo destaque */
+    color: #32b854 !important; /* amarelo destaque */
   }
   
   /* Botão WhatsApp flutuante */
@@ -25,14 +21,15 @@
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 60px;
     z-index: 1000;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    text-decoration: none;
   }
   
   /* Header da página inicial */
@@ -40,21 +37,21 @@
     margin-top: 80px; /* espaço pra navbar fixa */
     margin-bottom: 40px;
     text-align: center;
-    color: #0056b3; /* azul do transporte escolar */
+    color: #00002c; /* azul do transporte escolar */
   }
   
   /* Cards de diferenciais */
   .card-text-small {
-    font-size: 14px;
-    color: #555;
+    font-size: 15px;
+    color: #000035;
   }
   .card-diferencial {
-    border-left: 5px solid #ffd500; /* destaque amarelo */
+    border-left: 5px solid #150046; /* destaque amarelo */
     transition: transform 0.2s, box-shadow 0.2s;
   }
   .card-diferencial:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgb(9, 0, 63);
   }
   
   /* Fotos da equipe */
@@ -63,7 +60,7 @@
     max-height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    border: 2px solid #0056b3;
+    border: 4px solid #09005a;
   }
   
   /* Cards de rotas */
@@ -73,33 +70,33 @@
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    background-color: #ffd500; /* amarelo chamativo */
-    color: #0056b3;
+    background-color: #afd8c3; /* amarelo chamativo */
+    color: rgb(5, 0, 26);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
   }
   .rota-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 12px rgb(5, 0, 26);
   }
   
   /* Botões */
   .btn-primary {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #1a0063;
+    border-color: #1a0063;
   }
   .btn-primary:hover {
-    background-color: #003d80;
-    border-color: #003d80;
+    background-color: #25D366;
+    border-color: #25D366;
   }
   .btn-success {
     background-color: #25D366;
     border-color: #25D366;
   }
   .btn-success:hover {
-    background-color: #1ebe57;
-    border-color: #1ebe57;
+    background-color: #1a0063;
+    border-color: #1a0063;
   }
   
   /* Botões centrais */
@@ -108,4 +105,6 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  
+  body{
+    background-color: #e6e6fd;
+  }
