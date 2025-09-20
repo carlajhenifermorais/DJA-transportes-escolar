@@ -91,8 +91,8 @@
     border-color: #465d9c;
   }
   .btn-success {
-    background-color: #25D366;
-    border-color: #25D366;
+    background-color: #465d9c;
+    border-color: #465d9c;
   }
   .btn-success:hover {
     background-color: #465d9c;
@@ -106,5 +106,5 @@
     margin-bottom: 40px;
   }
   body{
-    background-color: #d6d3df;
+    background-color: #e0dcee;
   }
