@@ -9,7 +9,7 @@
     font-weight: 500;
   }
   .navbar .nav-link:hover {
-    color: #32b854 !important; /* amarelo destaque */
+    color: #465d9c !important; /* amarelo destaque */
   }
   
   /* Botão WhatsApp flutuante */
@@ -43,9 +43,10 @@
   .card-text-small {
     font-size: 15px;
     color: #000035;
+    background-color: #afbad8;
   }
   .card-diferencial {
-    border-left: 5px solid #150046; /* destaque amarelo */
+    border-left: 5px solid #150046;
     transition: transform 0.2s, box-shadow 0.2s;
   }
   .card-diferencial:hover {
@@ -59,7 +60,7 @@
     max-height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    border: 4px solid #09005a;
+    border: 4px solid #200f50;
   }
   
   /* Cards de rotas */
@@ -69,7 +70,7 @@
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    background-color: #afbad8; 
+    background-color: #afbad8; /* amarelo chamativo */
     color: rgb(5, 0, 26);
     font-weight: bold;
     text-transform: uppercase;
@@ -82,20 +83,20 @@
   
   /* Botões */
   .btn-primary {
-    background-color: #1a0063;
-    border-color: #1a0063;
+    background-color: #200f50;
+    border-color: #200f50;
   }
   .btn-primary:hover {
-    background-color: #25D366;
-    border-color: #25D366;
+    background-color: #465d9c;
+    border-color: #465d9c;
   }
   .btn-success {
     background-color: #25D366;
     border-color: #25D366;
   }
   .btn-success:hover {
-    background-color: #1a0063;
-    border-color: #1a0063;
+    background-color: #465d9c;
+    border-color: #465d9c;
   }
   
   /* Botões centrais */
@@ -105,5 +106,5 @@
     margin-bottom: 40px;
   }
   body{
-    background-color: #e6e6fd;
+    background-color: #d6d3df;
   }
