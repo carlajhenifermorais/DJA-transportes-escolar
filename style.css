@@ -97,7 +97,7 @@
     margin-bottom: 40px;
   }
   body{
-    background-color: #e0dcee;
+    background-color:#c9e2f1;
   }
   .main-navbar {
   background-color: white;
@@ -124,7 +124,7 @@
 
 /* Efeito quando rolar (scroll) — opcional mas bom pra deixar mais usável */
 .main-navbar.scrolled {
-  background-color: rgba(255,255,255,0.95);
+  background-color: #093462bd;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -153,10 +153,6 @@
   color: #ffffff;
   font-weight: 500;
   transition: color 0.3s;
-}
-
-.main-navbar .nav-link:hover {
-  color: #ffdd57; /* Amarelo destaque */
 }
 
 /* Botão hambúrguer branco */
@@ -243,7 +239,7 @@
 
 .sobre .missao h3 {
   color: #113769;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .sobre .missao p {
