@@ -248,3 +248,172 @@
   max-width: 700px;
   margin: 0 auto;
 }
+/* Seções gerais */
+.section-title {
+  color: #093462;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  color: #35557b;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Rotas */
+.rota-card {
+  background-color: #c9e2f1;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.rota-card i {
+  font-size: 2rem;
+  color: #093462;
+  margin-bottom: 10px;
+}
+
+.rota-card h5 {
+  font-size: 1.1rem;
+  color: #093462;
+  font-weight: bold;
+}
+
+.rota-card p {
+  font-size: 0.9rem;
+  color: #35557b;
+}
+
+.rota-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Escolas Parceiras */
+.parceiros-section ul li {
+  margin-bottom: 8px;
+  color: #35557b;
+  font-size: 1rem;
+}
+
+.btn-contato {
+  background-color: #35557b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-contato:hover {
+  background-color: #093462;
+}
+/* Diferenciais */
+.diferenciais-section {
+  background-color: #093462; /* azul escuro */
+  color: #fff;
+  border-radius: 12px;
+}
+
+.diferenciais-section .section-subtitle {
+  color: #c9e2f1; /* azul claro */
+  font-size: 0.9rem;
+}
+
+.diferenciais-section .section-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.diferenciais-section ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1da851;
+}
+
+.btn-call {
+  border: 2px solid #c9e2f1;
+  color: #c9e2f1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-call:hover {
+  background-color: #c9e2f1;
+  color: #093462;
+}
+.diferenciais-section h2.section-title {
+  color: #ffffff; /* título em branco */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.diferenciais-section h6.section-subtitle {
+  color: #c9e2f1; /* azul claro */
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.diferenciais-section {
+  padding: 60px 20px;
+}
+.site-footer {
+  background-color: #093462; /* Azul escuro */
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  margin-top: 50px;
+}
+
+.site-footer h5 {
+  color: #c9e2f1; /* Azul claro */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  max-width: 120px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #c9e2f1; /* Azul claro */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #35557b; /* Azul médio */
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #c9e2f1;
+}
+
