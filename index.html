@@ -45,29 +45,30 @@
 </section>
 <!--sobre-->
 <section class="sobre" id="sobre">
-  <h2>Sobre a DJA Transportes Escolar</h2>
-  
-  <p>
-    A <strong>DJA Transportes Escolar</strong> nasceu em 2025, mas sua história vem de antes. 
-    Desde 2022, nosso motorista já conduzia estudantes do IFMG - Campus Ribeirão das Neves em uma empresa do ramo. 
-    Com o encerramento das atividades dessa empresa, ele assumiu definitivamente o transporte, criando a DJA e dando 
-    continuidade a um trabalho marcado pela <strong>pontualidade, conforto e confiança</strong>.
-  </p>
+  <div class="container">
+    <div class="sobre-content">
+      <h2>Sobre a DJA Transportes Escolar</h2>
+      
+      <p>
+        A <strong>DJA Transportes Escolar</strong> nasceu em 2025, mas sua história vem de antes. 
+        Desde 2022, nosso motorista já conduzia estudantes do IFMG - Campus Ribeirão das Neves em uma empresa do ramo. 
+        Com o encerramento das atividades dessa empresa, ele assumiu definitivamente o transporte, criando a DJA e dando 
+        continuidade a um trabalho marcado pela <strong>pontualidade, conforto e confiança</strong>.
+      </p>
 
-  <p>
-    Hoje, atuamos há 3 anos no transporte escolar, oferecendo não apenas o deslocamento, mas um 
-    <strong>serviço responsável e cuidadoso</strong>, pensado para que estudantes e famílias tenham tranquilidade todos os dias.  
-  </p>
+      <p>
+        Hoje, atuamos há 3 anos no transporte escolar, oferecendo não apenas o deslocamento, mas um 
+        <strong>serviço responsável e cuidadoso</strong>, pensado para que estudantes e famílias tenham tranquilidade todos os dias.  
+      </p>
 
-  <div class="missao">
-    <h3>Nossa Missão</h3>
-    <p>
-      Garantir um transporte escolar seguro, pontual e confortável, cuidando de cada estudante com dedicação 
-      e responsabilidade.
-    </p>
+      <h3>Nossa Missão</h3>
+      <p>
+        Garantir um transporte escolar seguro, pontual e confortável, cuidando de cada estudante com dedicação 
+        e responsabilidade.
+      </p>
+    </div>
   </div>
 </section>
-
 
 
 <!-- Sobre 
@@ -83,50 +84,58 @@
     <h6 class="section-subtitle">Rotas Disponíveis</h6>
     <h2 class="section-title">BAIRROS ATENDIDOS</h2>
     <div class="row g-4 mt-4">
+      <!-- Fortaleza -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('fortaleza')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Fortaleza</h5>
         </div>
       </div>
+      <!-- Girassol -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('girassol')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Girassol</h5>
         </div>
       </div>
+      <!-- Justinópolis -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('justinopolis')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Justinópolis</h5>
         </div>
       </div>
+      <!-- Esperança -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('esperanca')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Esperança</h5>
         </div>
       </div>
+      <!-- Menezes -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('menezes')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Menezes</h5>
         </div>
       </div>
+      <!-- Papine -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('papine')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Papine</h5>
         </div>
       </div>
+      <!-- Felixlândia -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('felixlandia')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Felixlândia</h5>
         </div>
       </div>
+      <!-- Viena -->
       <div class="col-md-3 col-6">
-        <div class="rota-card">
+        <div class="rota-card" onclick="mostrarBairro('viena')">
           <i class="fas fa-map-marker-alt"></i>
           <h5>Viena</h5>
         </div>
@@ -141,19 +150,41 @@
     <div class="row align-items-center">
       <!-- Mapa -->
       <div class="col-md-6 mb-4 mb-md-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.423737137427!2d-44.0580!3d-19.7668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab3f0a3bb5e7ff%3A0x12345!2sIFMG%20-%20Campus%20Ribeir%C3%A3o%20das%20Neves!5e0!3m2!1spt-BR!2sbr!4v1695567891234!5m2!1spt-BR!2sbr" 
+        <iframe id="mapaBairro" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.423737137427!2d-44.0580!3d-19.7668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab3f0a3bb5e7ff%3A0x12345!2sIFMG%20-%20Campus%20Ribeir%C3%A3o%20das%20Neves!5e0!3m2!1spt-BR!2sbr!4v1695567891234!5m2!1spt-BR!2sbr" 
           width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
       <!-- Lista -->
       <div class="col-md-6" style="text-align: center;">
         <h2 class="section-title">ESCOLA ATENDIDA</h2>
-        <ul class="list-unstyled mt-3">
-          <li>IFMG - Campus Ribeirão das Neves</li>
-        </ul>
+        <a class="btn-escola mt-3" onclick="mostrarBairro('ifmg')">
+          IFMG - Campus Ribeirão das Neves
+        </a>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  function mostrarBairro(bairro) {
+    const mapa = document.getElementById("mapaBairro");
+    const rotas = {
+  fortaleza: "https://www.google.com/maps?q=Bairro+Fortaleza,+Ribeirão+das+Neves&output=embed",
+  girassol: "https://www.google.com/maps?q=Bairro+Girassol,+Ribeirão+das+Neves&output=embed",
+  justinopolis: "https://www.google.com/maps?q=Bairro+Justinópolis,+Ribeirão+das+Neves&output=embed",
+  esperanca: "https://www.google.com/maps?q=Bairro+Esperança,+Ribeirão+das+Neves&output=embed",
+  menezes: "https://www.google.com/maps?q=Bairro+Menezes,+Ribeirão+das+Neves&output=embed",
+  papine: "https://www.google.com/maps?q=Bairro+Papine,+Ribeirão+das+Neves&output=embed",
+  felixlandia: "https://www.google.com/maps?q=Bairro+Felixlândia,+Ribeirão+das+Neves&output=embed",
+  viena: "https://www.google.com/maps?q=Bairro+Viena,+Ribeirão+das+Neves&output=embed",
+  ifmg: "https://www.google.com/maps?q=IFMG,+Ribeirão+das+Neves&output=embed"
+};
+
+
+    mapa.src = rotas[bairro];
+  }
+</script>
+
 
 <!-- Diferenciais -->
 <section id="diferenciais" class="diferenciais-section py-5">
@@ -257,3 +288,4 @@
 </script>
 </body>
 </html>
+
