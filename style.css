@@ -68,26 +68,24 @@
 .btn-primary:hover{
   background-color: #465d9c;
   border-color: #465d9c;
-} /* parei aqui */
-  .btn-success {
-    background-color: #465d9c;
-    border-color: #465d9c;
-  }
-  .btn-success:hover {
-    background-color: #465d9c;
-    border-color: #465d9c;
-  }
-  
-  /* Botões centrais */
-  .btn-center {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  body{
-    background-color:#c9e2f1;
-  }
-  .main-navbar {
+}
+.btn-success{
+  background-color: #465d9c;
+  border-color: #465d9c;
+}
+.btn-success:hover{
+  background-color: #465d9c;
+  border-color: #465d9c;
+}
+.btn-center{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body{
+  background-color:#c9e2f1;
+}
+.main-navbar{
   background-color: white;
   position: sticky;
   top: 0;
@@ -95,190 +93,149 @@
   padding: 10px 0;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
-
-.main-navbar .navbar-brand {
+.main-navbar .navbar-brand{
   font-weight: bold;
   font-size: 1.5rem;
-  color: #0056b3; /* ou sua cor de destaque */
+  color: #0056b3; 
 }
-
-.main-navbar .navbar-nav .nav-link {
+.main-navbar .navbar-nav .nav-link{
   color: #555;
   margin-left: 15px;
 }
-.main-navbar .navbar-nav .nav-link:hover {
+.main-navbar .navbar-nav .nav-link:hover{
   color: #0056b3;
 }
-
-/* Efeito quando rolar (scroll) — opcional mas bom pra deixar mais usável */
-.main-navbar.scrolled {
+.main-navbar.scrolled{
   background-color: #093462bd;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
-/* Ajustar toggler (menu colapsado em telas menores) */
-.navbar-toggler {
+.navbar-toggler{
   border: none;
 }
-.navbar-toggler-icon {
+.navbar-toggler-icon{
   color: #555;
 }
-/* Fundo da navbar */
-.main-navbar {
+.main-navbar{
   background-color: #093462;
   padding: 0.5rem 1rem;
 }
-
-/* Logo ocupando altura da navbar */
-.navbar-logo {
-  height: 60px; /* Ajuste conforme a altura da sua navbar */
+.navbar-logo{
+  height: 60px;
   max-height: 100%;
   width: auto;
 }
-
-/* Links do menu */
-.main-navbar .nav-link {
+.main-navbar .nav-link{
   color: #ffffff;
   font-weight: 500;
   transition: color 0.3s;
 }
-
-/* Botão hambúrguer branco */
-.navbar-toggler {
+.navbar-toggler{
   border: none;
 }
-
-.navbar-toggler-icon {
+.navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
-/* Hero Section */
-.hero-section {
+.hero-section{
   position: relative;
   width: 100%;
-  height: calc(100vh - 70px); /* altura da tela menos a navbar */
+  height: calc(100vh - 70px); 
   overflow: hidden;
 }
-
-.hero-img {
+.hero-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.hero-overlay {
+.hero-overlay{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(9, 52, 98, 0.6); /* azul escuro com transparência */
+  background: rgba(9, 52, 98, 0.6);
 }
-
-.hero-content {
+.hero-content{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #c9e2f1; /* azul claro */
+  color: #c9e2f1; 
   z-index: 2;
 }
-
-.hero-title {
+.hero-title{
   font-size: 3rem;
   font-weight: bold;
 }
-
-.hero-subtitle {
+.hero-subtitle{
   font-size: 1.25rem;
   margin-bottom: 20px;
 }
-/* Seção Sobre */
-/* Seção Sobre */
-.sobre {
-  background-color: #093462; /* fundo igual ao da parte de diferenciais */
+.sobre{
+  background-color: #093462; 
   padding: 80px 20px;
 }
-
-.sobre-content {
+.sobre-content{
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
-
-.sobre-content h2 {
+.sobre-content h2{
   font-size: 2.2rem;
   color: #fff;
   margin-bottom: 20px;
   font-weight: bold;
 }
-
-.sobre-content h3 {
+.sobre-content h3{
   font-size: 1.6rem;
-  color: #c9e2f1; /* azul claro da paleta */
+  color: #c9e2f1; 
   margin-top: 30px;
   margin-bottom: 15px;
 }
-
-.sobre-content p {
+.sobre-content p{
   font-size: 1.1rem;
   color: #f0f0f0;
   line-height: 1.7;
   margin-bottom: 15px;
 }
-
-
-
-/* Seções gerais */
-.section-title {
+.section-title{
   color: #093462;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-.section-subtitle {
+.section-subtitle{
   color: #35557b;
   font-weight: 500;
   font-size: 0.9rem;
 }
-
-/* Rotas */
-.rota-card {
+.rota-card{
   background-color: #c9e2f1;
   padding: 20px;
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
-
-.rota-card i {
+.rota-card i{
   font-size: 2rem;
   color: #093462;
   margin-bottom: 10px;
 }
-
-.rota-card h5 {
+.rota-card h5{
   font-size: 1.1rem;
   color: #093462;
   font-weight: bold;
 }
-
-.rota-card p {
+.rota-card p{
   font-size: 0.9rem;
   color: #35557b;
 }
-
-.rota-card:hover {
+.rota-card:hover{
   transform: translateY(-5px);
 }
-
-/* Escolas Parceiras */
-.parceiros-section ul li {
+.parceiros-section ul li{
   margin-bottom: 8px;
   color: #35557b;
   font-size: 1rem;
 }
-
-.btn-contato {
+.btn-contato{
   background-color: #35557b;
   color: white;
   padding: 10px 20px;
@@ -286,33 +243,27 @@
   text-decoration: none;
   transition: background 0.3s;
 }
-
-.btn-contato:hover {
+.btn-contato:hover{
   background-color: #093462;
 }
-/* Diferenciais */
-.diferenciais-section {
-  background-color: #093462; /* azul escuro */
+.diferenciais-section{
+  background-color: #093462; 
   color: #fff;
   border-radius: 12px;
 }
-
-.diferenciais-section .section-subtitle {
-  color: #c9e2f1; /* azul claro */
+.diferenciais-section .section-subtitle{
+  color: #c9e2f1; 
   font-size: 0.9rem;
 }
-
-.diferenciais-section .section-title {
+.diferenciais-section .section-title{
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-.diferenciais-section ul li {
+.diferenciais-section ul li{
   font-size: 1rem;
   line-height: 1.5;
 }
-
-.btn-whatsapp {
+.btn-whatsapp{
   background-color: #25d366;
   color: white;
   padding: 10px 20px;
@@ -320,12 +271,10 @@
   text-decoration: none;
   transition: background 0.3s;
 }
-
-.btn-whatsapp:hover {
+.btn-whatsapp:hover{
   background-color: #1da851;
 }
-
-.btn-call {
+.btn-call{
   border: 2px solid #c9e2f1;
   color: #c9e2f1;
   padding: 10px 20px;
@@ -333,71 +282,61 @@
   text-decoration: none;
   transition: background 0.3s, color 0.3s;
 }
-
-.btn-call:hover {
+.btn-call:hover{
   background-color: #c9e2f1;
   color: #093462;
 }
-.diferenciais-section h2.section-title {
-  color: #ffffff; /* título em branco */
+.diferenciais-section h2.section-title{
+  color: #ffffff; 
   font-size: 2rem;
   font-weight: bold;
 }
-
-.diferenciais-section h6.section-subtitle {
-  color: #c9e2f1; /* azul claro */
+.diferenciais-section h6.section-subtitle{
+  color: #c9e2f1; 
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.diferenciais-section {
+.diferenciais-section{
   padding: 60px 20px;
 }
-.site-footer {
-  background-color: #093462; /* Azul escuro */
+.site-footer{
+  background-color: #093462; 
   color: #ffffff;
   padding: 40px 20px 20px;
   margin-top: 50px;
 }
-
-.site-footer h5 {
-  color: #c9e2f1; /* Azul claro */
+.site-footer h5{
+  color: #c9e2f1; 
   margin-bottom: 15px;
   font-weight: bold;
 }
-
-.footer-logo {
+.footer-logo{
   max-width: 120px;
 }
-
-.footer-links {
+.footer-links{
   list-style: none;
   padding: 0;
 }
-
-.footer-links li {
+.footer-links li{
   margin-bottom: 10px;
 }
-
-.footer-links a {
-  color: #c9e2f1; /* Azul claro */
+.footer-links a{
+  color: #c9e2f1;
   text-decoration: none;
   transition: color 0.3s;
 }
-
-.footer-links a:hover {
+.footer-links a:hover{
   color: #ffffff;
 }
-
-.footer-bottom {
-  border-top: 1px solid #35557b; /* Azul médio */
+.footer-bottom{
+  border-top: 1px solid #35557b; 
   text-align: center;
   margin-top: 20px;
   padding-top: 15px;
   font-size: 0.9rem;
   color: #c9e2f1;
 }
-
 .btn-escola{
   background-color: #093462;
   color: #c9e2f1;
